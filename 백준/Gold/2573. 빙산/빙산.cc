@@ -31,6 +31,7 @@ int main(){
             }
             if(flag) break;
         }
+        if(!q.size()) break;
         int cmpS = 0;
         int nextS = sum;
         while(q.size()){
